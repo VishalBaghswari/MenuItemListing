@@ -14,7 +14,7 @@ namespace MenuItemListing.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class MenuItemController : ControllerBase
     {
         private readonly ILogger _logger;
